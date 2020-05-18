@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navegacao {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.navegacao li, .navegacao div {
+    display: inline;
+    padding-left: 5vw;
+    margin-right: 1vw;
+    font-size: 1.2em;
+}
+
+.navegacao li a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+.container {
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+.github-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-avatar {
+    /*position: absolute;*/
+    /*top: 0px;*/
+    width: 100px;
+    height: 75px;
+    padding: 3px;
+}
+
+.repositorio {
+    display: flex;
+    padding: 5px;
+    width: 50%;
+}
+
+.repositorio p {
+    padding-left: 1px;
+    position: relative;
+    bottom: 3px;
+}
+
+@media (min-width: 960px) {
+    .repositorio {
+        width: 33%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .repositorio p {
+        bottom: 1px;
+    }
+}
+
+.repositorios {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.titulo h2 {
+    text-align: center;
+}
